@@ -37,7 +37,7 @@ form-container {
 }
 
 .title {
-    font-size: var(--1g);
+    font-size: var(--lg);
     margin-bottom: 12px;
     text-align: center;
 }
@@ -87,6 +87,39 @@ form-container {
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 25px;
+}
+
+.email {
+    width: 100px;
+    height: 100px;
+}
+
+.not-receive {
+    color: var(--very-light-pink);
+    font-size: var(--ssm);
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.resend {
+    color: var(--rojo);
+    cursor: pointer;
+    font-weight: 500;
 }
 
 @media (max-width: 640px) {
