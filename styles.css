@@ -22,7 +22,7 @@ body {
     place-items: center;
 }
 
-form-container {
+.form-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
@@ -120,6 +120,21 @@ form-container {
     color: var(--rojo);
     cursor: pointer;
     font-weight: 500;
+}
+
+.form a {
+    color: var(--rojo);
+    font-size: var(--sm);
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.signup-button {
+    background-color: var(--white);
+    color: var(--rojo);
+    border: 1px solid var(--rojo);
 }
 
 @media (max-width: 640px) {
