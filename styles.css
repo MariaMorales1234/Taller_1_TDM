@@ -137,6 +137,15 @@ body {
     border: 2px solid var(--rojo);
 }
 
+.info {
+    background-color: var(--text-input-field);
+    border-radius: 8px;
+    font-size: var(--md);
+    padding: 12px 6px;
+    margin: 0 0 12px 0;
+    color: var(--black);
+}
+
 @media (max-width: 640px) {
     .logo{
         display: block;
